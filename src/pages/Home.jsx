@@ -1,15 +1,16 @@
 import React from "react";
 import logoFooter from "../assets/logo-footer.png";
+import heroImage from "../assets/foto-anggota.png"
 
 const Home = () => {
   return (
     <div className="font-sans">
       {/* Hero Section with background image */}
-      <section className="relative min-h-[400px] flex items-center justify-center px-6 md:px-20 text-white">
+      <section className="relative h-[500px] flex items-center justify-center px-6 md:px-20 text-white">
         <img
-          src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80"
+          src={heroImage}
           alt="Ilmu Komputer"
-          className="absolute inset-0 w-full h-full object-cover brightness-50"
+          className="absolute inset-0 w-full h-full object-cover object-center brightness-50"
         />
         <div className="absolute inset-0 bg-black opacity-40"></div>
         <div className="relative max-w-4xl text-center px-4">
@@ -22,7 +23,7 @@ const Home = () => {
           </p>
           <a
             href="#about"
-            className="inline-block bg-blue-800 text-white font-semibold px-6 py-3 rounded shadow hover:bg-blue-700 transition"
+            className="inline-block bg-blue-800 text-white font-semibold px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition"
           >
             Pelajari Lebih Lanjut
           </a>
@@ -126,7 +127,7 @@ const Home = () => {
 
           {/* Alamat */}
           <div>
-            <h4 className="text-xl font-semibold mb-2 text-center md:text-left">
+            <h4 className="text-xl font-semibold mb-2 mt-6 text-center md:text-left">
               Alamat
             </h4>
             <p className="text-gray-200 leading-relaxed text-center md:text-left">
@@ -136,8 +137,8 @@ const Home = () => {
           </div>
 
           {/* Kontak */}
-          <div>
-            <h4 className="text-xl font-semibold mb-2 text-center md:text-left">
+          <div className="px-10">
+            <h4 className="text-xl font-semibold mb-2 mt-6 text-center md:text-left">
               Kontak Kami
             </h4>
             <ul className="text-gray-200 space-y-2 text-center md:text-left">
@@ -146,9 +147,6 @@ const Home = () => {
               </li>
               <li>
                 <span className="font-bold">Instagram:</span> @hmik.uper
-              </li>
-              <li>
-                <span className="font-bold">Line:</span> @tra85901
               </li>
             </ul>
           </div>
