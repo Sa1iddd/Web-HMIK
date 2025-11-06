@@ -38,7 +38,7 @@ const MemberCard = ({ member, isLeader = false }) => (
     className={`bg-white rounded-xl p-6 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5
       ${
         isLeader
-          ? "shadow-lg border-2 border-indigo-500 w-72"
+          ? "shadow-lg border-2 border-[#1481F9] w-72"
           : "shadow-md border border-slate-200 w-64" // MODIFIED: Set fixed width for centering
       }`}
   >

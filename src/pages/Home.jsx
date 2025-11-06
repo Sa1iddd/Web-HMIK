@@ -23,7 +23,7 @@ const Home = () => {
           </p>
           <a
             href="#about"
-            className="inline-block bg-blue-800 text-white font-semibold px-6 py-3 rounded-xl shadow hover:bg-blue-700 transition"
+            className="inline-block bg-[#1481F9] text-white font-semibold px-6 py-3 rounded-xl shadow hover:bg-[#F77E2B] transition"
           >
             Pelajari Lebih Lanjut
           </a>
@@ -31,7 +31,7 @@ const Home = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-12 md:py-20 bg-white text-blue-900">
+      <section id="about" className="py-12 md:py-20 bg-white text-[#1481F9]">
         <div className="max-w-6xl mx-auto px-4 md:px-8">
           <h2 className="text-3xl font-semibold mb-6 text-center">
             Tentang Himpunan Kami
@@ -48,7 +48,7 @@ const Home = () => {
       </section>
 
       {/* Visi Misi */}
-      <section className="bg-blue-900 text-white py-12">
+      <section className="bg-[#1481F9] text-white py-12">
         <div className="max-w-6xl mx-auto px-4 md:px-8">
           <h2 className="text-3xl font-semibold mb-8 text-center">
             Visi dan Misi
@@ -82,7 +82,7 @@ const Home = () => {
       </section>
 
       {/* Apa Itu Himpunan */}
-      <section className="py-12 bg-white text-blue-900">
+      <section className="py-12 bg-white text-[#1481F9]">
         <div className="max-w-6xl mx-auto px-4 md:px-8">
           <h2 className="text-3xl font-semibold mb-8 text-center">
             Apa Itu Himpunan?
@@ -114,7 +114,7 @@ const Home = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-blue-900 text-white py-10">
+      <footer className="bg-[#1481F9] text-white py-10">
         <div className="max-w-6xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
           {/* Logo */}
           <div className="flex justify-center md:justify-start">
