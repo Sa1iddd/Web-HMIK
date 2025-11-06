@@ -1,6 +1,6 @@
 import React from "react";
 import logoFooter from "../assets/logo-footer.png";
-import heroImage from "../assets/foto-anggota.png"
+import heroImage from "../assets/foto-anggota.webp"
 
 const Home = () => {
   return (
